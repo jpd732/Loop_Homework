@@ -21,9 +21,9 @@ public class Factorial_Number
 
         long no = scanner.nextLong();         //Input no to calculate factorial
 
-        for( i=1; i<=no; i++)
+        for ( i = 1; i <= no; i++)   //for loop to create loop to check range between 1 to user input and to calculate factorial.
         {
-            factor = factor * i;
+            factor = factor * i; // Calculation of factorial
         }
 
 
