@@ -39,7 +39,7 @@ public class Factorial_Number
         //Creating class object to call non-static method in static main method.
         Factorial_Number factorial_number = new Factorial_Number();
 
-        //Calling method using class object in order to execute the program of leap year.
+        //Calling non-static method with new class object.
         factorial_number.factorial();
 
 

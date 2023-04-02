@@ -37,7 +37,7 @@ public class Reverse_Number
         //Creating class object to call non-static method in static main method.
         Reverse_Number reverse_number = new Reverse_Number();
 
-        //Calling method using class object in order to execute the program of leap year.
+        //Calling non-static method with new class object.
         reverse_number.reverse();
 
 

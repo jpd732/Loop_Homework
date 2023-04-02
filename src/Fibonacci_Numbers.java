@@ -34,7 +34,7 @@ public class Fibonacci_Numbers
         //Creating class object to call non-static method in static main method.
         Fibonacci_Numbers fibonacci_numbers = new Fibonacci_Numbers();
 
-        //Calling method using class object in order to execute the program of leap year.
+        //Calling non-static method with new class object.
         fibonacci_numbers.fibonacci_sequence();
 
 

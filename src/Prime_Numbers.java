@@ -48,7 +48,7 @@ public class Prime_Numbers
         //Creating class object to call non-static method in static main method.
         Prime_Numbers prime_numbers = new Prime_Numbers();
 
-        //Calling method using class object in order to execute the program of leap year.
+        //Calling non-static method with new class object.
         prime_numbers.prime_no();
 
 
