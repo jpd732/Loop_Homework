@@ -17,12 +17,13 @@ public class Reverse_Number
             //Sout to take input from user
         System.out.println("Please enter numbers to reverse. For eg:- 1234: ");
         int no = scanner.nextInt();
-        int a = 0;
+        int a = 0; //This is where we will store reversed number.
 
+// using for loop to create a formula to reverse the given input number.
         for( ;no != 0; no = no/10)
         {
-            int remainder = no % 10;
-            a = a * 10 + remainder;
+            int remainder = no % 10; //Declaring variable to store remainder of user input and % of 10.
+            a = (a * 10) + remainder; //Formula to reverse the input number & store it in reverse variable which is a.
         }
         System.out.println("The reverse number of your input is: " + a);
 
